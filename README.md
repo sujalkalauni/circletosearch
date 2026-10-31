@@ -1,28 +1,26 @@
-# 🔍 Circle to Search for Windows
+#  Circle to Search for Windows
 
 A faithful, smooth, and high-performance **Circle to Search** experience for Windows 10 & 11, inspired by Android (Samsung Galaxy & Google Pixel).
 
-![App Icon](assets/app_icon.png)
 
----
 
-## ✨ Features
+## Features
 
-- 🌈 **Google Rainbow Glowing Lasso**: Draw freehand circles, scribbles, or lasso selections with vibrant multi-layer glowing strokes (Google Blue, Red, Yellow, Green, Cyan) and trailing stardust particles.
-- 🔍 **Instant Google Lens Visual Search**: Automatically uploads the circled area directly to Google Lens and opens the comprehensive visual search results page in your default browser.
-- ⚡ **Windows 10/11 Native Offline OCR**: Powered by the built-in Windows OCR engine (`winsdk.windows.media.ocr`). Instantly detects text from images, videos, and games with zero cloud delay (< 30ms) and 100% privacy.
-- 📋 **One-Click Text Actions**:
+-  **Google Rainbow Glowing Lasso**: Draw freehand circles, scribbles, or lasso selections with vibrant multi-layer glowing strokes (Google Blue, Red, Yellow, Green, Cyan) and trailing stardust particles.
+-  **Instant Google Lens Visual Search**: Automatically uploads the circled area directly to Google Lens and opens the comprehensive visual search results page in your default browser.
+-  **Windows 10/11 Native Offline OCR**: Powered by the built-in Windows OCR engine (`winsdk.windows.media.ocr`). Instantly detects text from images, videos, and games with zero cloud delay (< 30ms) and 100% privacy.
+-  **One-Click Text Actions**:
   - **Copy Text**: Copies recognized text immediately to your clipboard.
   - **Search Text**: Searches the recognized query on Google Web Search.
   - **Translate**: Automatically opens Google Translate with the recognized text.
-- 📱 **Floating Android Gesture Bar**: Optional subtle pill at the bottom center of the screen that expands with a Google glow on hover and triggers Circle to Search with a single click.
-- 🔔 **Android-Style Floating HUD Pill**: Sleek frosted glassmorphism toast that displays search progress, extracted text snippets, and action buttons.
-- 🔊 **Synthesized Audio Feedback**: Ethereal activation chime and crisp selection pop for satisfying tactile audio feedback.
-- 🛡️ **System Tray & Hotkey Manager**: Runs quietly in your system tray with full customizable settings and startup with Windows.
+-  **Floating Android Gesture Bar**: Optional subtle pill at the bottom center of the screen that expands with a Google glow on hover and triggers Circle to Search with a single click.
+-  **Android-Style Floating HUD Pill**: Sleek frosted glassmorphism toast that displays search progress, extracted text snippets, and action buttons.
+-  **Synthesized Audio Feedback**: Ethereal activation chime and crisp selection pop for satisfying tactile audio feedback.
+-  **System Tray & Hotkey Manager**: Runs quietly in your system tray with full customizable settings and startup with Windows.
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Requirements
 Ensure you have Python 3.10+ installed. The following packages are required:
@@ -47,7 +45,7 @@ pip install PyQt5 keyboard winsdk pillow requests
 
 ---
 
-## ⚙️ Settings & Customization
+## Settings & Customization
 
 Click the System Tray icon and select **Settings** (or right-click the tray icon):
 - **Global Hotkey**: Choose between `Alt + C`, `Ctrl + Alt + S`, `Ctrl + Space`, `Alt + Space`, or `Ctrl + Shift + S`.
@@ -61,7 +59,7 @@ Click the System Tray icon and select **Settings** (or right-click the tray icon
 
 ---
 
-## 📁 Project Architecture
+## Project Architecture
 
 ```
 k:/circletosearch/
@@ -82,6 +80,6 @@ k:/circletosearch/
 
 ---
 
-## 🔒 Privacy & Performance
+##  Privacy & Performance
 - OCR is processed **100% locally** using your operating system's native Windows OCR API.
 - Low memory footprint and zero CPU usage when idle in the system tray.
